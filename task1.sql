@@ -1,0 +1,14 @@
+CREATE DATABASE staff;
+use staff;
+CREATE TABLE staffData(staff_id bigint,first_name varchar(30), last_name varchar(30), address_id smallint, email varchar(30), store_id int, ActiveStatus int, username varchar(30), passwordd varchar(20), phone bigint(20) );
+SELECT * from staffData;
+INSERT INTO staffData VALUES(101,'Anusha','KM',1,"amu@gmail.com",1,1,"anusha@123","Anusha@1234",9880628176);
+INSERT INTO staffData VALUES(102,'Nayana','GY',2,"amuu@gmail.com",2,0,"anusha@123","Anusha@1234",9880628176);
+INSERT INTO staffData VALUES(103,'Pankaja','S',3,"amuu@gmail.com",3,0,"anusha@123","Anusha@1234",9880628176);
+INSERT INTO staffData VALUES(104,'Jayashree','PG',4,"amuu@gmail.com",4,1,"anusha@123","Anusha@1234",9880628176);
+INSERT INTO staffData VALUES(105,'Deepa','PG',5,"amuu@gmail.com",5,0,"anusha@123","Anusha@1234",9880628176);
+INSERT INTO staffData VALUES(106,'Rani','PG',6,"amuu@gmail.com",6,0,"anusha@123","Anusha@1234",9880628176);
+INSERT INTO staffData VALUES(107,'Pratiksha','PG',7,"amuu@gmail.com",7,1,"anusha@123","Anusha@1234",9880628176);
+INSERT INTO staffData VALUES(108,'Kavitha','PG',8,"amuu@gmail.com",8,0,"anusha@123","Anusha@1234",9880628176);
+INSERT INTO staffData VALUES(109,'Lalitha','PG',9,"amuu@gmail.com",9,0,"anusha@123","Anusha@1234",9880628176);
+INSERT INTO staffData VALUES(110,'Shushmitha','PG',10,"amuu@gmail.com",10,0,"anusha@123","Anusha@1234",9880628176);
